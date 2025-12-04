@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "title": "Graspop Metal Meeting",
+        "image": "/assets/images/graspop_img_modal.webp",
+        "date": "18 - 21 juin 2026",
+        "lieu": "Dessel - Belgique",
+        "tarifs": {
+            "Pass 4 jours": "319€",
+            "Pass 1 jour": "135€"
+        },
+        "headliners": ["VOLBEAT", "BRING ME THE HORIZON", "SABATON", "LIMP BIZKIT", "TWISTED SISTER", "BAD OMENS", "DEF LEPPARD"],
+        "desc": "Le Graspop Metal Meeting est un festival majeur de hard rock et heavy metal organisé chaque année en Belgique.",
+        "info": "https://www.graspop.be/fr/"
+    },
+
+    {
+        "id": 2,
+        "title": "Hellfest",
+        "image": "/assets/images/hellfest_img_modal.webp",
+        "date": "18 - 21 juin 2026",
+        "lieu": "Clisson - France",
+        "tarifs": {
+            "Pass 4 jours": "359€",
+            "Pass 1 jour": "Annoncé début 2026"
+        },
+        "headliners": ["JUDAS PRIEST", "WITHIN TEMPTATION", "SLAUGHTER TO PREVAIL", "AIRBOURNE", "GODSMACK", "MASS HYSTERIA", "PRIMUS"],
+        "desc": "Le Hellfest est l’un des plus grands festivals metal d’Europe, organisé chaque année en France.",
+        "info": "https://hellfest.fr/lineup"
+    },
+
+    {
+        "id": 3,
+        "title": "Motocultor Festival",
+        "image": "/assets/images/motocultor_img_modal.webp",
+        "date": "13 - 16 août 2026",
+        "lieu": "Carhaix - France",
+        "tarifs": {
+            "Pass 4 jours": "À partir de 192€",
+            "Pass 1 jour": "À partir de 76€"
+        },
+        "headliners": ["INCANTATION", "CARCASS", "KORPIKLAANI", "CANNIBAL CORPSE", "BEHEMOTH"],
+        "desc": "Le Motocultor est un festival français de metal connu pour sa programmation extrême et éclectique.",
+        "info": "https://www.motocultor-festival.com/"
+    },
+
+    {
+        "id": 4,
+        "title": "Heavy Week-end",
+        "image": "/assets/images/heavyweekend_img_modal.webp",
+        "date": "5 - 7 juin 2026",
+        "lieu": "Nancy - France",
+        "tarifs": {
+            "Pass 3 jours": "À partir de 185€",
+            "Pass 1 jour": "À partir de 79€"
+        },
+        "headliners": ["GOJIRA", "ELECTRIC CALLBOY", "THREE DAYS GRACE", "ICE NINE KILLS", "SAVATAGE", "TRIVIUM", "AVANTASIA"],
+        "desc": "Heavy Week-end est un festival metal en plein cœur de Nancy avec des artistes internationaux.",
+        "info": "https://www.heavyweekend.live/"
+    },
+
+    {
+        "id": 5,
+        "title": "Rock am Ring",
+        "image": "/assets/images/rockamring_img_modal_.webp",
+        "date": "5 - 7 juin 2026",
+        "lieu": "Nürburg - Allemagne",
+        "tarifs": {
+            "Pass 3 jours": "À partir de 229€",
+            "Pass 1 jour": "À partir de 109€"
+        },
+        "headliners": ["LINKIN PARK", "IRON MAIDEN", "VOLBEAT", "THE OFFSPRING", "ELECTRIC CALLBOY"],
+        "desc": "Rock am Ring est l’un des plus grands festivals rock et metal d’Allemagne.",
+        "info": "https://www.rock-am-ring.com/en"
+    },
+    
+    {
+        "id": 6,
+        "title": "Wacken Open Air",
+        "image": "/assets/images/wackenopenair_img_modal.webp",
+        "date": "29 juillet - 1 août 2026",
+        "lieu": "Wacken - Allemagne",
+        "tarifs": {
+            "Pass 4 jours": "351€",
+            "Pass 1 jour": "Non communiqué"
+        },
+        "headliners": ["JUDAS PRIEST", "DEF LEPPARD", "POWERWOLF", "ARCH ENEMY", "IN FLAMES"],
+        "desc": "Le Wacken Open Air est le plus célèbre festival de heavy metal au monde.",
+        "info": "https://www.wacken.com/en/"
+    }
+]
