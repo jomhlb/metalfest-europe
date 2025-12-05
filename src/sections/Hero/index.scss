@@ -26,22 +26,42 @@
     text-align: center;
     padding: 0 1rem; 
     width: 100%;     
-    background-color: rgba(0, 0, 0, 0.8);
     overflow: hidden;   
-    background: linear-gradient(
-    to bottom,
-        rgba(0, 0, 0, 0) 0%,  
-        rgba(0, 0, 0, 0.8) 15%, 
-        rgba(0, 0, 0, 0.8) 85%, 
-        rgba(0, 0, 0, 0) 100%
-    );
 
     h1 {
         color: $color-text;
         font-size: 56px;
         width: 100%;
-        padding: 1rem 1rem;
-        font-weight: 400;
+        font-weight: 600;
         opacity: 0.7;
+    }
+}
+
+.hero_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+
+    button{
+        padding: 1rem;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bolder;
+        opacity: 0.7;
+        background-color: transparent;
+    }
+
+    button, a{
+        background-color: transparent;
+        color: $color-text;
+        text-decoration: none;
+
+        
+        &:hover {
+          color: $color-text;
+          transform: translateY(-3px);
+        }
     }
 }

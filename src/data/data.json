@@ -87,5 +87,214 @@
         "headliners": ["JUDAS PRIEST", "DEF LEPPARD", "POWERWOLF", "ARCH ENEMY", "IN FLAMES"],
         "desc": "Le Wacken Open Air est le plus célèbre festival de heavy metal au monde.",
         "info": "https://www.wacken.com/en/"
+    },
+
+    {
+        "id": 7,
+        "title": "MozHell Open Air",
+        "image": "/assets/images/mozhell_img.webp",
+        "date": "24 - 26 juillet 2026",
+        "lieu": "Insming - France",
+        "tarifs": {
+            "Pass 3 jours": "Non communiqué",
+            "Pass 1 jour": "Non communiqué"
+        },
+        "headliners": ["Non communiqué pour le moment"],
+        "desc": "Le MozHell Open Air est un festival réunissant musique, passion et énergie autour de deux jours de concerts intenses. L’événement rassemble artistes et festivaliers dans une ambiance conviviale et dynamique, portée par des riffs puissants et des moments de partage. Après une édition couronnée de succès, le festival confirme son retour en 2026 avec une programmation étendue sur trois jours.",
+        "info": "https://www.mozhell.fr/fr/"
+    },
+
+    {
+        "id": 8,
+        "title": "Festival 666",
+        "image": "/assets/images/666_img.webp",
+        "date": "29 juillet - 1 août 2026",
+        "lieu": "Cercoux  - France",
+        "tarifs": {
+            "Pass 3 jours": "A partir de 107.92€",
+            "Pass 1 jour": "Non communiqué"
+        },
+        "headliners": ["IGORRR", "SKINDRED", "ALCEST", "TEN56", "MARS REDSKY", "KRAV BOCA"],
+        "desc": "Le Festival 666 est un rendez-vous incontournable pour les passionnés de musique rock et metal, offrant plusieurs jours de concerts intenses dans une atmosphère authentique et festive. L’événement réunit groupes émergents et têtes d’affiche dans un cadre convivial, où se mêlent énergie brute, partage et passion. Chaque édition confirme l’identité unique du festival, devenu un moment fort de la scène alternative.",
+        "info": "https://www.festival666.com/"
+    },
+
+    {
+        "id": 9,
+        "title": "House of Metal",
+        "image": "/assets/images/houseofmetal_img.webp",
+        "date": "6 - 7 novembre 2026",
+        "lieu": "Umeå - Suède",
+        "tarifs": {
+            "Pass 2 jours": "A partir de 104,40€",
+            "Pass 1 jour": "Non communiqué"
+        },
+        "headliners": ["THE CROWN", "FIRESPAWN", "THRON"],
+        "desc": "Le House of Metal est un festival suédois dédié aux sonorités heavy et extrêmes, rassemblant chaque année les amateurs de metal dans une ambiance immersive et électrique. Entre groupes internationaux et artistes scandinaves reconnus, l’événement offre une expérience intense portée par la puissance des riffs et la passion du public. Le festival s’est imposé comme un rendez-vous majeur de la scène metal nordique, apprécié pour son atmosphère authentique et son identité forte.",
+        "info": "https://www.houseofmetal.se/"
+    },
+
+    {
+        "id": 10,
+        "title": "Hell Over Hammaburg",
+        "image": "/assets/images/helloverhammaburgl_img.webp",
+        "date": "6 - 7 mars 2026",
+        "lieu": "Hamburg - Allemagne",
+        "tarifs": {
+            "Pass 2 jours": "A partir de 108€",
+            "Pass 1 jour": "Non communiqué"
+        },
+        "headliners": ["MEGA COLOSSUS", "ARGUS", "THIS GIFT IS A CURSE", "SINTAGE", "NIGHT", "TEMPLAR"],
+        "desc": "Le Hell Over Hammaburg est un festival allemand dédié aux scènes heavy, obscure et underground, réunissant chaque année les passionnés dans un cadre intimiste et authentique. Porté par une programmation pointue mêlant groupes émergents et formations cultes, l’événement offre une expérience intense où l’atmosphère sombre et l’énergie du public créent une identité unique. Installé à Hambourg, le festival s’est imposé comme un rendez-vous incontournable pour les amateurs de metal alternatif et expérimental.",
+        "info": "https://helloverhammaburg.blogspot.com/"
+    },
+
+    {
+        "id": 11,
+        "title": "Dortmund Deathfest",
+        "image": "/assets/images/dortmund_img.webp",
+        "date": "31 juillet - 1 août 2026",
+        "lieu": "Dortmund - Allemagne",
+        "tarifs": {
+            "Pass 2 jours": "A partir de 108,90€",
+            "Pass 1 jour": "Non communiqué"
+        },
+        "headliners": ["ASPHYX", "DEICIDE", "IMMOLATION", "BEHEADED", "CRYPTOPSY", "KORPSE"],
+        "desc": "Le Dortmund Deathfest est un festival allemand entièrement dédié aux sonorités les plus extrêmes du metal, réunissant chaque année les fans de death metal dans une ambiance intense et sans compromis. Avec une programmation réunissant groupes confirmés et nouvelles formations de la scène underground, l’événement offre une expérience brute, énergique et immersive. Installé à Dortmund, le festival s’est imposé comme un rendez-vous majeur pour les amateurs de metal brutal et authentique.",
+        "info": "https://dortmund-deathfest.de/"
+    },
+
+    {
+        "id": 12,
+        "title": "Elements Of Rock",
+        "image": "/assets/images/elementsofrock_img.webp",
+        "date": "13 - 15 mars 2026",
+        "lieu": "Uster - Suisse",
+        "tarifs": {
+            "Pass 3 jours": "A partir de 95€",
+            "Pass 1 jour": "Non communiqué"
+        },
+        "headliners": ["EXTOL", "DETRITUS", "PANTOKRATOR", "METATRONE", "BLOODCROWN", "NEFESH CORE"],
+        "desc": "Elements of Rock, abrégé EoR, est un festival annuel de metal chrétien organisé à Uster, en Suisse. L’événement réunit des groupes internationaux et des artistes de la scène chrétienne dans une atmosphère conviviale et passionnée, mêlant concerts, rencontres et moments de partage. Grâce à son identité affirmée et à une programmation variée, le festival s’est imposé comme un rendez-vous incontournable pour les amateurs de metal désireux de découvrir une scène engagée et authentique.",
+        "info": "https://www.elementsofrock.com/"
+    },
+
+    {
+        "id": 13,
+        "title": "Metal Diver",
+        "image": "/assets/images/metaldiver_img.webp",
+        "date": "14 mars 2026",
+        "lieu": "Marsberg - Allemagne",
+        "tarifs": {
+            "Pass 1 jours": "A partir de 55€"
+        },
+        "headliners": ["PRIMAL FEAR", "UNLEASHED", "PRIPJAT", "POWERGAME", "VULTURE", "DRAGONY"],
+        "desc": "Le Metal Diver est un festival allemand de metal réunissant chaque année des groupes internationaux et des fans passionnés pour une expérience musicale intense, énergique et authentique au cœur de la scène metal.",
+        "info": "https://www.metaldiver-festival.de/"
+    },
+
+    {
+        "id": 14,
+        "title": "Inferno Festival",
+        "image": "/assets/images/infernofestival_img.webp",
+        "date": "2 - 5 avril 2026",
+        "lieu": "Oslo - Norvège",
+        "tarifs": {
+            "Pass 4 jours": "A partir de 369,33€",
+            "Pass 1 jour": "101,46€"
+        },
+        "headliners": ["CULT OF LUNA", "DER WEG EINER FREIHEIT", "SVARTTJERN", "1914", "SADISTIC INTENT", "HULDER"],
+        "desc": "L’Inferno Festival est un événement norvégien incontournable pour les amateurs de metal extrême, offrant chaque année des concerts puissants et immersifs, mêlant groupes internationaux et scène locale dans une ambiance intense et passionnée.",
+        "info": "https://www.infernofestival.net/no/Festival/News.aspx"
+    },
+
+    {
+        "id": 15,
+        "title": "Roadburn Festival",
+        "image": "/assets/images/roadburnfestival_img.webp",
+        "date": "16 - 19 avril 2026",
+        "lieu": "Tilbourg - Pays-bas",
+        "tarifs": {
+            "Pass 4 jours": "284€",
+            "Pass 2 jours": "165€",
+            "Pass 1 jour": "87€"
+        },
+        "headliners": ["AGRICULTURE", "COALESCE", "HABAK", "HEAVEN IN HER ARMS"],
+        "desc": "Le Roadburn Festival est un rendez-vous annuel aux Pays-Bas dédié aux musiques heavy, expérimentales et alternatives, réunissant groupes internationaux et fans passionnés dans une ambiance immersive et innovante.",
+        "info": "https://roadburn.com/"
+    },
+
+    {
+        "id": 16,
+        "title": "Ragnarök Festival",
+        "image": "/assets/images/ragnarokfestival_img.webp",
+        "date": "9 - 11 avril 2026",
+        "lieu": "Lichtenfels - Allemagne",
+        "tarifs": {
+            "Pass 3 jours": "140€"
+        },
+        "headliners": ["ABBATH", "AGRYPNIA", "GRIMMING", "HYPOCRISY"],
+        "desc": "Le Ragnarök Festival est un événement allemand consacré au metal pagan et folk, rassemblant chaque année des groupes internationaux et des fans dans une ambiance authentique, festive et énergique.",
+        "info": "https://ragnaroek-festival.com/"
+    },
+
+    {
+        "id": 17,
+        "title": "SWR FEST",
+        "image": "/assets/images/swrfest_img.webp",
+        "date": "29 avril - 2 mai 2026",
+        "lieu": "Barroselas - Portugal",
+        "tarifs": {
+            "Pass 4 jours": "A partir de 100€",
+            "Pass 1 jours": "A partir de 45€"
+        },
+        "headliners": ["BEHERIT", "EXHUMED", "REVENGE", "BULLDOZER", "PENTACLE", "PRIMITIVE MAN"],
+        "desc": "Le SWR Fest est un festival portugais de metal réunissant chaque année des groupes internationaux et des fans passionnés pour des concerts puissants et immersifs, dans une ambiance conviviale et énergique.",
+        "info": "https://swr-fest.com/news"
+    },
+
+    {
+        "id": 18,
+        "title": "Frontiers Rock Festival",
+        "image": "/assets/images/frontiersrockfestival_img.webp",
+        "date": "1 - 3 mai 2026",
+        "lieu": "Trezzo sull'Adda - Italie",
+        "tarifs": {
+            "Pass 3 jours": "225€",
+            "Pass 1 jours": "80€"
+        },
+        "headliners": ["NIGHT RANGER", "DEGREED", "H.E.A.T", "HELL IN THE CLUB", "HOUSE OF LORDS", "TRANSATLANTIC RADIO"],
+        "desc": "Le Frontiers Rock Festival est un événement italien dédié au rock et au hard rock mélodique, rassemblant chaque année groupes internationaux et fans passionnés dans une ambiance dynamique et festive.",
+        "info": "https://www.frontiersrockfestival.com/"
+    },
+
+    {
+        "id": 19,
+        "title": "Steel Fest",
+        "image": "/assets/images/steelfest_img.webp",
+        "date": "14 - 16 mai 2026",
+        "lieu": "Hyvinkää - Finlande",
+        "tarifs": {
+            "Pass 3 jours": "189€",
+            "Pass 2 jours": "Non communiqué"
+        },
+        "headliners": ["TORMENTOR", "BEHERIT", "REVENGE", "SATANIC WARMASTER", "AKHLYS", "FORTERESSE"],
+        "desc": "Le Steel Fest est un festival finlandais de metal, réunissant chaque année groupes internationaux et fans passionnés pour des concerts intenses et une expérience musicale immersive.",
+        "info": "https://steelfest.fi/"
+    },
+
+    {
+        "id": 20,
+        "title": "Up The Hammers",
+        "image": "/assets/images/upthehammers_img.webp",
+        "date": "13 - 14 mars 2026",
+        "lieu": "Athènes - Grèce",
+        "tarifs": {
+            "Pass 2 jours": "110€",
+            "Pass 1 jours": "60€"
+        },
+        "headliners": ["SOLITUDE ARTURNUS", "ATLANTEAN KODEX", "BLAZE", "BLITZKRIEG", "DARK NIGHTMARE", "IRONSWORD"],
+        "desc": "Up The Hammers est un festival grec de metal réunissant chaque année des groupes internationaux et locaux, offrant aux fans une expérience intense, énergique et authentique au cœur de la scène heavy et underground.",
+        "info": "https://upthehammersfestival.bigcartel.com/"
     }
 ]

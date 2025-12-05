@@ -1,0 +1,66 @@
+@use "../../styles/main.scss" as *;
+
+.modal_overlay {
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  font-size: 15px;
+}
+
+.modal_content {
+  position: relative;
+  background: #0a0a0a;
+  color: white;
+  max-width: 600px;
+  width: 90%;
+  padding: 2rem;
+  border-radius: 12px;
+  animation: fadeIn 0.3s ease;
+  overflow-y: auto;
+  max-height: 80vh; 
+
+  h2{
+    text-align: center;
+  }
+}
+
+.modal_desc{
+    padding-bottom: 2rem;
+}
+
+.modal_content img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 1rem auto;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.modal_close {
+  position: absolute;
+  top: 1rem; 
+  right: 1rem;  
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.2rem 0.5rem;
+}
+
+.modal_link a{
+    color: $color-text;
+    padding-left: 0.5rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}

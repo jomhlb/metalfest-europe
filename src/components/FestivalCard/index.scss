@@ -1,0 +1,31 @@
+@use "../../styles/main.scss" as *;
+
+.festival_card {
+  flex: 0 0 560px;
+  background: #111;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.festival_card:hover {
+  transform: scale(1.05);
+}
+
+.festival_card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.festival_card h3 {
+  margin: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.festival_card p {
+  margin: 0 0.5rem 0.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}

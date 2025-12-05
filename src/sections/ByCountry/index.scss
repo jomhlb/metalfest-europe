@@ -1,0 +1,60 @@
+@use "../../styles/main.scss" as *;
+
+#bycountry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-text;
+    padding: 9rem;
+}
+
+.bycountry_title h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 350;
+    text-align: center;
+}
+
+.bycountry_filter_bloc{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.bycountry_filter_btn{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+
+    button{
+        color: $color-text;
+        background-color: #111;
+        cursor: pointer;
+        padding: 0.5rem;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bolder;
+
+        &:hover{
+            color: #111;
+            background-color: $color-text;
+            transform: translateY(-3px);
+        }
+    }
+}
+
+.pagination button {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 10;
+}

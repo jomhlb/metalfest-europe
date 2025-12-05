@@ -1,5 +1,7 @@
 import { useState } from "react";
 import data from "../../data/data.json";
+import FestivalModal from "../../components/FestivalModal";
+import FestivalCard from "../../components/FestivalCard";
 import "./index.scss";
 
 export default function UpcomingFestivals() {
@@ -15,9 +17,7 @@ export default function UpcomingFestivals() {
 
   const prev = () => {
     setAnimating(true);
-    setStartIndex((prev) =>
-      (prev - visibleCards + data.length) % data.length
-    );
+    setStartIndex((prev) => (prev - visibleCards + data.length) % data.length);
   };
 
   const handleAnimationEnd = () => setAnimating(false);
@@ -34,9 +34,7 @@ export default function UpcomingFestivals() {
       </div>
 
       <div className="carousel_container">
-        <button className="carousel_btn left" onClick={prev}>
-          «
-        </button>
+        <button className="carousel_btn left" onClick={prev}>«</button>
 
         <div className="upcomingfestivals_carousselle">
           <div
@@ -44,86 +42,33 @@ export default function UpcomingFestivals() {
             onAnimationEnd={handleAnimationEnd}
           >
             {displayed.map((festival) => (
-              <div
+              <FestivalCard
                 key={festival.id}
-                className="festival_card"
-                onClick={() => setSelectedFestival(festival)}
-              >
-                <img src={festival.image} alt={festival.title} />
-                <h3>{festival.title}</h3>
-                <p>{festival.lieu}</p>
-              </div>
+                festival={festival}
+                onClick={setSelectedFestival}
+              />
             ))}
           </div>
         </div>
 
-        <button className="carousel_btn right" onClick={next}>
-          »
-        </button>
+        <button className="carousel_btn right" onClick={next}>»</button>
       </div>
 
       <div className="upcomingfestivals_text">
         <p>
-          Le prochain festival approche à grands pas, et l’excitation commence
-          déjà à se faire sentir. Ce site permet de retrouver toutes les
-          informations utiles pour profiter pleinement de l’événement : le lieux, les dates, les tarifs, les têtes d'affiches et bien d'autres choses.
+          Le prochain festival approche et l’excitation monte déjà !
+          Ici, tu trouveras tout ce qu’il faut pour repérer et explorer les festivals metal qui font vibrer l’Europe.
+          Chaque événement est présenté avec l’essentiel : nom, dates, lieu, tarifs, line-up et une courte description pour saisir l’esprit du festival d’un coup d’œil.
+          Que tu cherches une grande messe du metal ou un rassemblement plus underground, cette section te permet de naviguer facilement entre les pays et les scènes.
+          Du nord glacial jusqu’aux terres du sud, chaque destination a son atmosphère, ses riffs et son énergie propre. Parcours la liste, découvre des festivals que tu connais… et d’autres que tu ne soupçonnais même pas.
+          Prépare ton agenda, ton sac et tes oreilles : l’Europe n’attend que toi pour résonner encore plus fort !
         </p>
       </div>
 
-      {selectedFestival && (
-        <div
-          className="modal_overlay"
-          onClick={() => setSelectedFestival(null)}
-        >
-          <div className="modal_content" onClick={(e) => e.stopPropagation()}>
-            <button
-              className="modal_close"
-              onClick={() => setSelectedFestival(null)}
-            >
-              ✕
-            </button>
-
-            <h2>{selectedFestival.title}</h2>
-            <img src={selectedFestival.image} alt={selectedFestival.title} />
-            <p>📍 {selectedFestival.lieu}</p>
-            <p>📅 {selectedFestival.date}</p>
-
-            {selectedFestival.tarifs && (
-              <div className="modal_tarifs">
-                <h4>🎟️ Tarifs</h4>
-                {Object.entries(selectedFestival.tarifs).map(([pass, price]) => (
-                  <p key={pass}>
-                    {pass} : {price}
-                  </p>
-                ))}
-              </div>
-            )}
-
-            {selectedFestival.headliners && (
-              <div className="modal_headliners">
-                <h4>⭐ Têtes d’affiche</h4>
-                <p>{selectedFestival.headliners.join(", ")}</p>
-              </div>
-            )}
-
-            {selectedFestival.desc && (
-              <p className="modal_desc">{selectedFestival.desc}</p>
-            )}
-
-            {selectedFestival.info && (
-              <p className="modal_link">➡
-                <a
-                  href={selectedFestival.info}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Plus d'information
-                </a>
-              </p>
-            )}
-          </div>
-        </div>
-      )}
+      <FestivalModal 
+        festival={selectedFestival} 
+        fermerModal={() => setSelectedFestival(null)} 
+      />
     </section>
   );
 }
