@@ -1,5 +1,5 @@
 import "./index.scss";
-import video from "../../assets/videos/backgroundtest.mp4"
+import video from "../../assets/videos/background.mp4"
 
 export default function Hero() {
     return(

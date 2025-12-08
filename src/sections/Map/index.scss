@@ -1,0 +1,24 @@
+@use "../../styles/main.scss" as *;
+
+#map{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-text;
+  padding: 8rem;
+}
+
+.map_title h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-weight: 350;
+}
+
+.europe_map {
+  width: 100%;
+  height: 500px;
+  max-width: 1000px;
+  border-radius: 12px;
+  overflow: hidden; 
+}
+
