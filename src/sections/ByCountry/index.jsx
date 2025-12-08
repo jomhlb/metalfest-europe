@@ -2,6 +2,7 @@ import { useState } from "react";
 import data from "../../data/data.json";
 import FestivalModal from "../../components/FestivalModal";
 import FestivalCard from "../../components/FestivalCard";
+import image from "../../assets/images/background-bycountry.webp";
 
 import "./index.scss";
 
@@ -9,7 +10,7 @@ export default function ByCountry() {
   const [paysFiltre, setPaysFiltre] = useState("Tous");
   const [selectedFestival, setSelectedFestival] = useState(null);
   const [page, setPage] = useState(1);
-  const festivalsParPage = 10;
+  const festivalsParPage = 6;
 
   const paysUniques = ["Tous", ...new Set(data.map(f => f.lieu.split(" - ")[1]))];
 
@@ -25,6 +26,9 @@ export default function ByCountry() {
 
   return (
     <section id="bycountry">
+      <div className="bycountry_img">
+        <img src={image} alt="Arrière plan" />
+      </div>
       <div className="bycountry_title">
         <h2>DANS TOUTE L'EUROPE</h2>
       </div>

@@ -1,6 +1,10 @@
 @import "leaflet/dist/leaflet.css";
 
 $color-text: #F5F5F5;
+$desktop: 1440px;
+$laptop: 1024px;
+$tablet: 768px;
+$mobile: 425px;
 
 body{
     background-color: black;

@@ -11,6 +11,10 @@ export default function Map() {
             <div className="europe_map">
                 <MapComponent />
             </div>
+
+            <div className="map_text">
+                <p>L’Europe est vaste, mais la musique relie tout. Cette carte rassemble les festivals metal européens qui, chacun à leur manière, façonnent des paysages sonores uniques et vibrants.</p>
+            </div>
         </section>
     )
 }
