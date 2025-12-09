@@ -43,7 +43,7 @@
 
 .bycountry_filter_bloc{
   position: relative;
-  width: 100%;
+  width: 80%;
   max-width: 1200px;
   display: flex;
   flex-direction: row;
@@ -90,18 +90,24 @@
     z-index: 10;
 }
 
+@media (max-width: $desktop) {
+    .bycountry_filter_btn{
+        gap: 1rem;
+        width: 60%;
+    }
+}
+
 @media (max-width: $laptop) {
     #bycountry {
     .bycountry_title h2 {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .bycountry_filter_btn{
-        gap: 1.5rem;
         width: 80%;
 
         button{
-            font-size: 12px;
+            font-size: 13px;
         }
     }
 
@@ -110,3 +116,64 @@
         }
     }
 }
+
+@media (max-width: $tablet) {
+    #bycountry {
+    .bycountry_title h2 {
+        font-size: 30px;
+    }
+
+    .bycountry_filter_bloc{
+        position: relative;
+        width: 80%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        gap: 2.5rem;
+    }
+    
+    .bycountry_filter_btn{
+        gap: 1rem;
+        button{
+            font-size: 12px;
+        }
+    }
+
+        .pagination button, span {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: $mobile) {
+    #bycountry {
+    .bycountry_title h2 {
+        font-size: 24px;
+        width: 90%;
+        margin-top: -1rem;
+    }
+
+    .bycountry_filter_bloc{
+      width: 70%;
+      gap: 1.5rem;
+    }
+    
+    .bycountry_filter_btn{
+        gap: 0.5rem;
+        justify-content: center;
+        width: 80%;
+        button{
+            font-size: 11px;
+        }
+    }
+
+        .pagination button, span {
+            font-size: 0.8rem;
+        }
+    }
+}
+

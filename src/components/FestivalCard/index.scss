@@ -39,26 +39,54 @@
     cursor: pointer;
     transition: transform 0.2s ease;
   }
+}
 
-  .festival_card:hover {
-    transform: scale(1.05);
-  }
-
-  .festival_card img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 12px 12px 0 0;
-  }
-
+@media (max-width: $laptop) {
   .festival_card h3 {
-    margin: 0.5rem;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .festival_card p {
-    margin: 0 0.5rem 0.5rem;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: $tablet) {
+    .festival_card h3 {
     font-size: 15px;
-    color: #ccc;
+  }
+
+  .festival_card p {
+    font-size: 12px;
+  }
+
+  .festival_card {
+    flex: 0 0 260px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .festival_card h3 {
+    font-size: 14px;
+  }
+
+  .festival_card p {
+    font-size: 11px;
+  }
+
+  .festival_card {
+    flex: 1 0 260px;
+  }
+}
+
+@media (max-width: 375px) {
+  .festival_card {
+    flex: 1 0 215px;
+  }
+}
+
+@media (max-width: 320px) {
+  .festival_card {
+    flex: 1 0 160px;
   }
 }

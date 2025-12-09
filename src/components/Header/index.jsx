@@ -26,14 +26,38 @@ export default function Header() {
 
     return(
         <nav className={`header ${menuOpen ? "open" : ""}`}>
-
-            <div className="header_burger"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Menu">
+            <div
+                className="header_burger"
+                onClick={() => setMenuOpen(!menuOpen)}
+                aria-label="Menu"
+            >
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <ul className={`header_menu_mobile ${menuOpen ? "active" : ""}`}>
+                <li>
+                <a href="#hero" onClick={(e) => handleLinkClick(e, "#hero")}>
+                    ACCUEIL
+                </a>
+                </li>
+                <li>
+                <a href="#upcomingfestivals" onClick={(e) => handleLinkClick(e, "#upcomingfestivals")}>
+                    PROCHAINS FESTIVALS
+                </a>
+                </li>
+                <li>
+                <a href="#bycountry" onClick={(e) => handleLinkClick(e, "#bycountry")}>
+                    PAR PAYS
+                </a>
+                </li>
+                <li>
+                <a href="#map" onClick={(e) => handleLinkClick(e, "#map")}>
+                    CARTE
+                </a>
+                </li>
+            </ul>
 
             <ul className={`header_links_left ${menuOpen ? "active" : ""}`}>
                 <li>

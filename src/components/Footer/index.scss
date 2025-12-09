@@ -4,9 +4,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     color: $color-text;
     padding: 2rem;
     font-size: 15px;
+
+    p{
+        width: 60%;
+    }
 
         &::before {
         content: "";
@@ -15,5 +20,31 @@
         height: 1px;
         background-color: rgba(255, 255, 255, 0.2);
         margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: $laptop) {
+    .footer-content{
+        font-size: 14px;
+
+        &::before {
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .footer-content{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: $mobile) {
+    .footer-content{
+        font-size: 11px;
+
+        &::before {
+            width: 80%;
+        }
     }
 }
