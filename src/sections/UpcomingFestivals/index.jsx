@@ -8,7 +8,7 @@ export default function UpcomingFestivals() {
   const [selectedFestival, setSelectedFestival] = useState(null);
   const [startIndex, setStartIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
-  const visibleCards = 3;
+  const visibleCards = 4;
 
   const next = () => {
     setAnimating(true);

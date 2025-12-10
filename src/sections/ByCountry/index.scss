@@ -8,6 +8,7 @@
   padding: 10rem 0rem;
   overflow: hidden;
   position: relative;
+  min-height: 100vh;
 }
 
 .bycountry_img{
@@ -43,7 +44,7 @@
 
 .bycountry_filter_bloc{
   position: relative;
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   display: flex;
   flex-direction: row;

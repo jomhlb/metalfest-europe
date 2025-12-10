@@ -1,0 +1,77 @@
+@use "../../styles/main.scss" as *;
+
+.error-page{
+    position: relative;
+    overflow: hidden;
+    color: $color-text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 81vh;
+    text-align: center;
+    justify-content:  center;
+
+  h1{
+    font-size: 56px;
+    font-weight: 600;
+    opacity: 0.7;
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  a{
+    color: $color-text;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: $laptop) {
+    .error-page{
+        h1{
+            font-size: 45px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        a{
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .error-page{
+        h1{
+            font-size: 35px;
+        }
+
+        p{
+            font-size: 13px;
+        }
+
+        a{
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: $mobile) {
+    .error-page{
+        h1{
+            font-size: 28px;
+        }
+
+        p{
+            font-size: 12px;
+            width: 70%;
+        }
+
+        a{
+            font-size: 11px;
+        }
+    }
+}
