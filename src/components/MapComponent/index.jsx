@@ -29,7 +29,7 @@ export default function MapComponent() {
         className="map_container"
       >
         <TileLayer
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png"
+          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png?api_key=52e5aa61-02ac-4bf7-91e3-281e38406a31"
           attribution="&copy; OpenStreetMap contributors"
         />
 

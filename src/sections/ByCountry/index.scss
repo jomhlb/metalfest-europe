@@ -29,8 +29,8 @@
     mask-image: linear-gradient(
         to bottom, 
         rgba(0,0,0,0.1), 
-        rgba(0,0,0,1) 20%, 
-        rgba(0,0,0,1) 10%, 
+        rgba(0,0,0,1) 1%, 
+        rgba(0,0,0,1) 1%, 
         rgba(0,0,0,0) 80%);
 }
 
@@ -154,7 +154,7 @@
     #bycountry {
     .bycountry_title h2 {
         font-size: 24px;
-        width: 90%;
+        width: 100%;
         margin-top: -1rem;
     }
 
