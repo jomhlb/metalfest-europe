@@ -1,5 +1,6 @@
 import { useState } from "react"; 
 import "./index.scss";
+import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import { LatLngBounds } from "leaflet";
 import FestivalModal from "../FestivalModal";

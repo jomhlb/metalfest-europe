@@ -6,7 +6,8 @@ import Accueil from "./pages/Accueil/index";
 import Error from "./pages/Error/index";
 import Layout from "./components/Layout/index";
 
-import "./styles/main.scss"
+import "./styles/main.scss";
+import "./leafletConfig";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
